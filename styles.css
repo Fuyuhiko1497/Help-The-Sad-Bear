@@ -1,0 +1,110 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+    /*background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/922/253/small/heavy-rain-in-dark-sky-rainy-season-clouds-and-storm-weather-nature-background-flood-natural-disaster-illustration-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: 1100px;*/
+}
+
+img {
+    width: 350px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+    color: #008CBA;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+/* 
+.story-opening{
+   display:none;
+}
+*/
+
+
+.buttons {
+    display: none;
+}
+
+
+
+.option-one-screen {
+    display: none;
+}
+
+
+
+.option-two-screen {
+    display: none;
+}
+
+
+
+.option-one-end {
+    display: none;
+}
+
+.option-two-one {
+    display: none;
+}
+
+.option-two-two {
+    display: none;
+}
+
+.option-two-three {
+    display: none;
+}
+
+.option-two-four {
+    display: none;
+}
+
+.option-two-end {
+    display: none;
+}
+
+.bye {
+    display: none;
+}
+
+.storyEnd {
+    display: none;
+}
